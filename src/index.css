@@ -3,6 +3,103 @@
 @tailwind utilities;
 
 
+html{
+  background-color: #E5E5E5;
+  color: #333333;
+}
+
+/* 기본 스타일 */
+header {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 20px;
+}
+
+/* header-content */
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* 로고(버튼) 스타일 */
+header .header-title-button {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+header .header-title-button:hover {
+  color: #ff6f61; /* hover:text-gray-300 */
+}
+
+/* 메뉴 버튼들 스타일 */
+header .header-nav-menu {
+  display: flex;
+  gap: 1rem; /* space-x-4 */
+}
+
+/* 메뉴 버튼들 */
+header .header-nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+/* 메뉴 버튼 hover 효과 */
+header .header-nav-button:hover {
+  color: #ff6f61; /* hover:text-gray-300 */
+}
+
+/* 작은 화면에서 메뉴 숨기기, 큰 화면에서만 보이기 */
+@media (min-width: 768px) {
+  header .header-nav-menu {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  header .header-nav-menu {
+    display: none;
+  }
+  header .hamburger {
+    display: block;
+  }
+}
+
+/*main*/
+main{
+  text-align: center;
+  color: #333333;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+/*footer*/
+footer{
+  padding: 3rem 0;
+  text-align: center;
+  font-size: .9rem;
+}
+
+
+
+
+
+
 
 body {
   margin: 0;
