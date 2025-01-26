@@ -1,6 +1,6 @@
 .Introduction{
     text-align: center;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .Introduction-title{
@@ -10,7 +10,6 @@
 }
 
 .Introduction-content{
-    text-align: center;
     margin-bottom: 20px;
 }
 
