@@ -24,8 +24,8 @@ const Skills =()=>{
                     <p><b>Java: </b>중급</p>
                     <p><b>SQLite3: </b>중급</p>
                     <p><b>MySQL: </b>중급</p>
-                    <p><b>HTML5: </b>중하</p>
-                    <p><b>CSS: </b>중하</p>
+                    <p><b>HTML5: </b>중급</p>
+                    <p><b>CSS: </b>중급</p>
                     <p><b>JS: </b>중하</p>
                     <p><b>React: </b>초급</p>
                     <p><b>Django: </b>중급</p>
