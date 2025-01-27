@@ -1,0 +1,9 @@
+.Address{
+    text-align: center;
+    margin: 4rem 0;
+}
+.Address-title{
+    font-size: 1.675rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
