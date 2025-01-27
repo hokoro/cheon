@@ -3,9 +3,7 @@ import '../css/address.css';
 
 const Address = () =>{
     // Github 이미지 가져오기
-    const imageUrl = `${process.env.REACRT_APP_PUBLIC_URL}/images/Github.png`;
-
-
+    const imageUrl = `/images/Github.png`;
 
     return(
         <div className="Address">
