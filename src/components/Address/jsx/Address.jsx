@@ -8,9 +8,12 @@ const Address = () =>{
     return(
         <div className="Address">
             <h1 className="Address-title">Address</h1>
-            <div className="Address-content">
-                <img src={imageUrl} alt="Logo"/>
-            </div>
+            <a href={"https://github.com/hokoro"}>
+                <div className="Address-content">
+                    <img src={imageUrl} alt="Logo"/>
+                    <p>천영성 깃허브</p>
+                </div>
+            </a>
         </div>
     );
 }
