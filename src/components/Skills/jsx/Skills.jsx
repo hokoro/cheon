@@ -2,14 +2,14 @@ import React , {useState} from 'react';
 import '../css/skills.css';
 
 const Skills =()=>{
-    const [showTooltip, setShoeTooltip] = useState(false);
+    const [showTooltip, setShowTooltip] = useState(false);
 
     const handleMouseEnter = () => {
-        setShoeTooltip(true);
+        setShowTooltip(true);
     }
 
     const handleMouseLeave = () =>{
-        setShoeTooltip(false);
+        setShowTooltip(false);
     }
 
 
