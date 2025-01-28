@@ -4,9 +4,8 @@ import '../css/introduction.css';
 
 const Introduction = () =>{
 
-
     return(
-        <div className="Introduction">
+        <div className="Introduction" name="introduction">
             <h1 className="Introduction-title">Introduction</h1>
             <div className="Introduction-content">
                 <p>안녕하십니까. 웹 서비스 개발자가 되고 싶은 천영성입니다.</p>

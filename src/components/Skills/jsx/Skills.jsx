@@ -14,10 +14,10 @@ const Skills =()=>{
 
 
     return(
-        <div className="Skills">
+        <div className="Skills" name="skills">
             <h1 className="Skills-title" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Skills</h1>
             {showTooltip && (
-                <div className="bg-gray-800 text-white rounded-lg shadow-lg p-4 w-64 absolute top-49 right-96">
+                <div className="bg-gray-800 text-white rounded-lg shadow-lg p-4 w-64 absolute top-5">
                     <div className="absolute w-4 h-4 bg-gray-800"></div>
                     <p>스킬 숙련도</p>
                     <p><b>Python: </b>중급</p>

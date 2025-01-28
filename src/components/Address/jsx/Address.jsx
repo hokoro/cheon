@@ -6,7 +6,7 @@ const Address = () =>{
     const imageUrl = `/images/Github.png`;
 
     return(
-        <div className="Address">
+        <div className="Address" name="address">
             <h1 className="Address-title">Address</h1>
             <a href={"https://github.com/hokoro"}>
                 <div className="Address-content">
