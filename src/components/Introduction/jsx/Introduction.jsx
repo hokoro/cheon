@@ -3,6 +3,9 @@ import '../css/introduction.css';
 
 
 const Introduction = () =>{
+
+    const imageUrl = '/images/cheon.jpg';
+
     const [showTooltip , setShowTooltip] = useState(false);
 
     const handleMouseEnter = () => {
@@ -19,6 +22,7 @@ const Introduction = () =>{
             <h1 className="Introduction-title" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>Introduction</h1>
             {showTooltip && (
                 <div className="bg-gray-800 text-white rounded-lg shadow-lg p-4 w-64 Introduction-tooltip">
+                    <img src={imageUrl} alt="Logo"/>
                     <p><b>Name: </b>천영성</p>
                     <p><b>Age: </b>27세(만)</p>
                     <p><b>School: </b>조선대학교</p>
