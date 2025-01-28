@@ -16,3 +16,13 @@
 .Introduction-content p{
     padding-bottom: 10px;
 }
+
+.Introduction-tooltip{
+    display: inline-block;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.Introduction-tooltip p{
+    padding-bottom: 10px;
+}

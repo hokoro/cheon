@@ -55,3 +55,13 @@
     font-weight: 500;
     font-size: .875rem;
 }
+
+.Skills-tooltip{
+    display: inline-block;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.Skills-tooltip p{
+    padding-bottom: 10px;
+}
