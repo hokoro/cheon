@@ -38,9 +38,6 @@ header .header-title-button {
   margin: 0 1rem;
 }
 
-header .header-title-button:hover {
-  color: #ff6f61; /* hover:text-gray-300 */
-}
 
 /* 메뉴 버튼들 스타일 */
 header .header-nav-menu {

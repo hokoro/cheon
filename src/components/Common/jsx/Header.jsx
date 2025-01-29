@@ -5,7 +5,7 @@ const Header = () =>{
     return (
         <header>
             <div className="header-content">
-                <button className="header-title-button" type="button">Cheontfolio</button>
+                <div className="header-title-button">Cheontfolio</div>
                 <nav className="header-nav-menu">
                     <Link to="introduction" smooth={true} duration={500} className="header-nav-button">Introduction</Link>
                     <Link to="skills" smooth={true} duration={500} className="header-nav-button">Skills</Link>
