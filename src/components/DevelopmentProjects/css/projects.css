@@ -1,0 +1,89 @@
+.Projects{
+    text-align: center;
+    padding: 4rem 1.5rem;
+    margin: 0 auto;
+    max-width: 71.25rem;
+}
+
+.Projects-title{
+    font-size: 1.675rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Projects-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Projects-content .Projects-content-piece{
+    display: flex;
+    flex-direction: column; /*수직 정렬*/
+    padding:2rem;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    width: calc((100% - 2rem) / 2); /*화면에 절반으로 나눠 줄당 2개씩 */
+}
+
+.Projects-content .Projects-content-piece .Projects-class{
+    align-self: flex-start;
+    font-weight: 700;
+    padding: .25rem .75rem;
+    margin-bottom: .5rem;
+    color:white;
+    border-radius: .5rem;
+}
+
+.Projects-content .Projects-content-piece .Projects-duration{
+    align-self: flex-start;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    font-size: .875rem;
+    color: #6c757d;
+}
+
+
+.Projects-content .Projects-content-piece .individual{
+    background-color: slategray; /* 밝은 주황 */
+    color: black;
+}
+
+.Projects-content .Projects-content-piece .team{
+    background-color: #047857; /* 진한 초록 */
+    color: white;
+}
+
+.Projects-content .Projects-content-piece .Project-explanation{
+    align-self: flex-start;
+    font-weight: 700;
+    padding: .5rem 0;
+    margin:  .5rem 0;
+}
+
+.Projects-content .Projects-content-piece .Project-deep-explanation{
+    align-self: flex-start;
+    padding: .6rem .6rem;
+    margin:  .6rem .6rem;
+    list-style: disc; /* 기본 마커 제거 */
+}
+
+.Projects-link{
+    align-self: flex-start;
+    color:lightblue;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.Projects-link:hover{
+    color:mediumblue;
+}
+
+.Projects-skills{
+    align-self: flex-start;
+    background-color: rgba(249,197,29,.2);
+    border-radius: .5rem;
+    border: 1px solid;
+    margin-top: 1rem;
+    padding: .25rem .75rem;
+}

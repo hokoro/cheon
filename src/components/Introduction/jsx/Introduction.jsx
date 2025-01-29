@@ -24,7 +24,7 @@ const Introduction = () =>{
                 <div className="bg-gray-800 text-white rounded-lg shadow-lg p-4 w-64 Introduction-tooltip">
                     <img src={imageUrl} alt="Logo"/>
                     <p><b>Name: </b>천영성</p>
-                    <p><b>Age: </b>27세(만)</p>
+                    <p><b>Age: </b>(만)27세</p>
                     <p><b>School: </b>조선대학교</p>
                     <p><b>Major: </b>컴퓨터공학과</p>
                     <p><b>Email: </b>hokoro123@Gmail.com</p>
