@@ -100,7 +100,7 @@ const Projects = () =>{
                     <a href={"https://github.com/hokoro/Escooter_No_Helmet_Detection_YOLO"}
                        className="Projects-link">https://github.com/hokoro/Escooter_No_Helmet_Detection_YOLO</a>
                     <div className="Projects-skills">
-                        Python, HTML, CSS, JS
+                        Python, HTML, CSS, JS, Django
                     </div>
                 </div>
                 <div className="Projects-content-piece">
@@ -132,7 +132,7 @@ const Projects = () =>{
                     <a href={"https://github.com/hokoro/cheon01"}
                        className="Projects-link">https://github.com/hokoro/cheon01</a>
                     <div className="Projects-skills">
-                        Python, HTML, CSS, JS, Docker
+                        Python, HTML, CSS, JS, Docker, Django
                     </div>
                 </div>
             </div>
