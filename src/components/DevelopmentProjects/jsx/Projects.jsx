@@ -25,7 +25,7 @@ const Projects = () =>{
                 </div>
                 <div className="Projects-content-piece">
                     <h4 className="Projects-class team">Rosseta</h4>
-                    <p className="Projects-duration">2024.12 ~ 2024.01</p>
+                    <p className="Projects-duration">2023.12 ~ 2024.01</p>
                     <hr/>
                     <h5 className="Project-explanation">청각장애인을 위한 수어 교육 플랫폼</h5>
                     <ul className="Project-deep-explanation">
