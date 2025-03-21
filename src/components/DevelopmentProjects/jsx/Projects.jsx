@@ -8,6 +8,21 @@ const Projects = () =>{
         <div className="Projects" name="projects">
             <h1 className="Projects-title">Projects</h1>
             <div className="Projects-content">
+                 <div className="Projects-content-piece">
+                    <h4 className="Projects-class individual">Cheonblog</h4>
+                    <p className="Projects-duration">2025.01.30 ~ now</p>
+                    <hr/>
+                    <h5 className="Project-explanation">나만 사용하는 개인 블로그 개발</h5>
+                    <ul className="Project-deep-explanation">
+                        <li>개인 프로젝트</li>
+                        <li>클라이언트: React / 백엔드: Spring boot</li>
+                        <li>개인 블로그 토이 프로젝트 </li>
+                    </ul>
+                    <a href={"https://github.com/hokoro/CheonBlog"} className="Projects-link">https://github.com/hokoro/CheonBlog</a>
+                    <div className="Projects-skills">
+                        React, HTML, CSS, JavaScript, JSX, Java, Spring boot, MySQL, Redis 
+                    </div>
+                </div>
                 <div className="Projects-content-piece">
                     <h4 className="Projects-class individual">CheontFolio</h4>
                     <p className="Projects-duration">2025.01.24 ~ now</p>

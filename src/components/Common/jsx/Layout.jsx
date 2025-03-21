@@ -6,6 +6,7 @@ import Skills from "../../Skills/jsx/Skills";
 import Address from "../../Address/jsx/Address";
 import AwardAndActivations from "../../AwardsAndActivations/jsx/AwardAndActivations";
 import Projects from "../../DevelopmentProjects/jsx/Projects";
+import Certificate from '../../Certificate/jsx/Certificate';
 const Layout = ({children}) =>{
     return(
         <div className="Layout">
@@ -14,6 +15,7 @@ const Layout = ({children}) =>{
             <Skills/>
             <Address/>
             <AwardAndActivations/>
+            <Certificate/>
             <Projects/>
             <Footer/>
         </div>
